@@ -4,6 +4,12 @@
     border: 1px solid red;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -26,11 +32,11 @@ a {
 .section-one {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding: 0 300px;
+    gap: 50px;
+    justify-content: center;
 }
 
-.left-column {
+.section-one .left-column {
     width: 400px;
 }
 
@@ -40,12 +46,12 @@ a {
 }
 
 .section-two {
-    padding: 0 300px;
     text-align: center;
 }
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
 }
@@ -69,6 +75,14 @@ a {
     width: 750px;
 }
 
-.quotee {
+.originator {
     text-align: end;
+}
+
+.section-four {
+
+}
+
+.sign-up-container {
+
 }
