@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .header {
@@ -80,9 +79,13 @@ a {
 }
 
 .section-four {
-
+    display: flex;
+    justify-content: center;
 }
 
 .sign-up-container {
-
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    width: 900px;
 }
