@@ -1,7 +1,7 @@
 * {
+    border: 1px solid red;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 
 body {
@@ -15,13 +15,14 @@ body {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 64px;
     justify-content: center;
 }
 
 .header {
     display: flex;
-    width: 1000px;
+    gap: 32px;
+    width: 1200px;
 }
 
 .logo {
@@ -33,30 +34,44 @@ a {
     text-decoration: none;
 }
 
-.section-one {
+.section-one-container {
     background-color: #1F2937;
+    flex: 1;
     display: flex;
-    gap: 50px;
+    align-items: center;
     justify-content: center;
 }
 
-.section-one .left-column {
-    width: 450px;
+.section-one {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    justify-content: space-between;
+    width: 1200px;
 }
 
-.right-column img {
+.section-one img {
     height: auto;
-    width: 450px;
+    width: 400px;
 }
+
+
+
+
 
 .section-two {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
 .info-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 64px;
     justify-content: center;
 }
 
@@ -69,9 +84,16 @@ a {
     width: 150px;
 }
 
+
+
+
+
+
 .section-three {
     background-color: #E5E7EB;
+    flex:1 ;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -84,7 +106,9 @@ a {
 }
 
 .section-four {
+    flex: 1;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
