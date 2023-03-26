@@ -59,6 +59,16 @@ a {
     width: 150px;
 }
 
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
 
+.quote-container {
+    width: 750px;
+}
 
-
+.quotee {
+    text-align: end;
+}
