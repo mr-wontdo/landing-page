@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ body {
 .header {
     display: flex;
     gap: 32px;
-    width: 1200px;
+    width: 1100px;
 }
 
 .logo {
@@ -47,17 +47,13 @@ a {
     align-items: center;
     gap: 64px;
     justify-content: space-between;
-    width: 1200px;
+    width: 1100px;
 }
 
 .section-one img {
     height: auto;
     width: 400px;
 }
-
-
-
-
 
 .section-two {
     flex: 1;
@@ -70,53 +66,47 @@ a {
 
 .info-container {
     display: flex;
-    flex-wrap: wrap;
     gap: 64px;
     justify-content: center;
 }
 
 .info {
-    width: 150px;
+    width: 175px;
 }
 
 .info img {
     height: auto;
-    width: 150px;
+    width: 175px;
 }
 
-
-
-
-
-
-.section-three {
+.section-three-container {
     background-color: #E5E7EB;
-    flex:1 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.quote-container {
-    width: 750px;
-}
-
-.originator {
-    text-align: end;
-}
-
-.section-four {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sign-up-container {
+.section-three {
+    width: 800px;
+}
+
+.originator {
+    text-align: end;
+}
+
+.section-four-container {
+    flex: 1;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.section-four {
+    display: flex;
     gap: 300px;
-    width: 900px;
+    justify-content: center;
+    width: 1100px;
 }
 
 .footer {
@@ -125,5 +115,5 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 64px;
 }
