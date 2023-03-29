@@ -14,12 +14,13 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    height: 64px;
+    min-height: 64px;
     justify-content: center;
 }
 
 .header-container {
     display: flex;
+    align-items: center;
     gap: 32px;
     width: 1100px;
 }
@@ -96,10 +97,11 @@ a {
     width: 176px;
 }
 
-.info img {
+.section-two img {
+    border: 3px solid #3882F6;
     border-radius: 16px;
     height: auto;
-    width: 192px;
+    width: 150px;
 }
 
 .section-three {
@@ -147,6 +149,7 @@ a {
 
 .sign-up-main {
     color: #F9FAF8;
+    font-size: 24px;
     font-weight: 800;
 }
 
@@ -159,6 +162,7 @@ button {
     border: 0;
     border-radius: 8px;
     color: #F9FAF8;
+    font-size: 18px;
     font-weight: 800;
     padding: 8px 24px;
 }
@@ -173,5 +177,12 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 64px;
+    min-height: 64px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+    padding: 96px 0;
 }
