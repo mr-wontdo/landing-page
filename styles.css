@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-.header-container {
+.header {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.header {
+.header-container {
     display: flex;
     gap: 32px;
     width: 1100px;
@@ -34,7 +34,7 @@ a {
     text-decoration: none;
 }
 
-.section-one-container {
+.section-one {
     background-color: #1F2937;
     flex: 1;
     display: flex;
@@ -42,7 +42,7 @@ a {
     justify-content: center;
 }
 
-.section-one {
+.section-one-container {
     display: flex;
     align-items: center;
     gap: 64px;
@@ -59,15 +59,18 @@ a {
     flex: 1;
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
+.section-two-container {
+    width: 900px;
+}
+
 .info-container {
     display: flex;
-    gap: 64px;
-    justify-content: center;
+    gap: 32px;
+    justify-content: space-between;
 }
 
 .info {
@@ -79,7 +82,7 @@ a {
     width: 175px;
 }
 
-.section-three-container {
+.section-three {
     background-color: #E5E7EB;
     flex: 1;
     display: flex;
@@ -87,7 +90,7 @@ a {
     justify-content: center;
 }
 
-.section-three {
+.section-three-container {
     width: 800px;
 }
 
@@ -95,14 +98,14 @@ a {
     text-align: end;
 }
 
-.section-four-container {
+.section-four {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section-four {
+.section-four-container {
     display: flex;
     gap: 300px;
     justify-content: center;
