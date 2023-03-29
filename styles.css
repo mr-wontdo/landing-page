@@ -1,5 +1,4 @@
 * {
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
@@ -10,12 +9,21 @@ body {
     height: 100vh;
 }
 
-.header {
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+    flex-grow: 1;
+    padding: 64px 0;
+}
+
+.header,
+.footer {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    min-height: 64px;
     justify-content: center;
+    min-height: 64px;
 }
 
 .header-container {
@@ -38,7 +46,6 @@ a {
 
 .section-one {
     background-color: #1F2937;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +68,7 @@ a {
 .hero-secondary {
     color: #E5E7EB;
     font-size: 18px;
+    margin-bottom: 16px;
 }
 
 .section-one img {
@@ -70,7 +78,6 @@ a {
 }
 
 .section-two {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,6 +92,7 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
+    margin-bottom: 48px;
 }
 
 .information-container {
@@ -94,6 +102,7 @@ a {
 }
 
 .info {
+    color: #1F2937;
     width: 176px;
 }
 
@@ -101,12 +110,12 @@ a {
     border: 3px solid #3882F6;
     border-radius: 16px;
     height: auto;
+    margin-bottom: 4px;
     width: 150px;
 }
 
 .section-three {
     background-color: #E5E7EB;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +139,6 @@ a {
 }
 
 .section-four {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,10 +149,14 @@ a {
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 300px;
-    justify-content: center;
+    gap: 64px;
     height: 128px;
+    justify-content: space-around;
     width: 1100px;
+}
+
+.section-four .left-column {
+    flex-shrink: 0;
 }
 
 .sign-up-main {
@@ -164,7 +176,8 @@ button {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 800;
-    padding: 8px 24px;
+    flex-shrink: 0;
+    padding: 8px 32px;
 }
 
 .section-four button {
@@ -172,17 +185,5 @@ button {
 }
 
 .footer {
-    background-color: #1F2937;
     color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 64px;
-}
-
-.section-one,
-.section-two,
-.section-three,
-.section-four {
-    padding: 96px 0;
 }
